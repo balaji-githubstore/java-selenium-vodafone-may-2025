@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //dealing with more than 2 tabs 
-public class Demo4 {
+public class Demo4TabUsingTitle {
 
 	public static void main(String[] args) {
 
@@ -33,6 +33,8 @@ public class Demo4 {
 		}
 		
 		System.out.println(driver.getTitle());
+		
+		driver.findElement(By.id("input_username")).sendKeys("admin");
 		
 	}
 
