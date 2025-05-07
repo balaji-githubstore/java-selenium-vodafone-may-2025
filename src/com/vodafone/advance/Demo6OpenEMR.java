@@ -18,7 +18,7 @@ public class Demo6OpenEMR {
 		
 		driver.get("https://demo.openemr.io/b/openemr");
 		
-		driver.findElement(By.cssSelector("#authUser")).sendKeys("jack222");
+		driver.findElement(By.cssSelector("#authUser")).sendKeys("jack2228");
 		
 // Navigate onto http://demo.openemr.io/b/openemr/ 
 //Update username as admin 
@@ -30,6 +30,7 @@ public class Demo6OpenEMR {
 //Update DOB as today's date  
 //driver.findElement(By.id("form_DOB")).sendKeys("2024-01-12"); 
 
+		
 		
 		
 	}
